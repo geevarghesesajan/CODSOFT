@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe - AI Modes</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="game-container">
+    <h1>Tic Tac Toe</h1>
+
+    <div class="settings">
+      <label for="difficulty">Difficulty:</label>
+      <select id="difficulty">
+        <option value="easy">Easy (Random)</option>
+        <option value="medium">Medium (Smart)</option>
+        <option value="hard">Hard (Minimax)</option>
+      </select>
+    </div>
+
+    <div class="board" id="board"></div>
+    <div class="status" id="status">Your turn!</div>
+    <button id="restart">Restart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
